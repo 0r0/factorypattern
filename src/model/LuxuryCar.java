@@ -12,8 +12,7 @@ public class LuxuryCar extends Car {
 
     @Override
     protected void construct() {
-
-        Logger.getLogger(Logger.GLOBAL_LOGGER_NAME,"this is luxury car");
+        System.out.println("this is sedan Car");
 
     }
 }

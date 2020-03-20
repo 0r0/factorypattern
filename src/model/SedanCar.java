@@ -11,8 +11,7 @@ public class SedanCar extends Car {
 
     @Override
     protected void construct() {
-//        System.out.println("this is sedan Car");
-        Logger.getLogger(Logger.GLOBAL_LOGGER_NAME,"this is sedan car");
+        System.out.println("this is sedan Car");
 
     }
 }
