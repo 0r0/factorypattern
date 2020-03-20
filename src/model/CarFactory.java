@@ -2,7 +2,7 @@ package model;
 
 public class CarFactory  {
     public static Car carBuilder(CarType model) throws Exception {
-        Car car=null;
+        Car car;
         switch (model){
             case SEDAN:
                 car=new SedanCar();
