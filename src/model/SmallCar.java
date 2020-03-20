@@ -9,7 +9,6 @@ public class SmallCar extends Car {
     }
     @Override
     protected void construct() {
-//        System.err.println("this is Small car");
         Logger.getLogger(Logger.GLOBAL_LOGGER_NAME,"this is small car");
     }
 }
